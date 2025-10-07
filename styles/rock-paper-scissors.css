@@ -72,3 +72,35 @@ body {
 .reset-score-button:hover {
   background-color: #ff4c3b;
 }
+
+.auto-play-button {
+  background-color: #7ed957;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 8px;
+    margin-top: 25px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.auto-play-button:hover {
+  background-color: greenyellow;
+}
+
+.reset-confirm-button {
+  background-color: #ffcc70;
+  color: black;
+  border: none;
+  border-radius: 8px;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 8px 15px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.reset-confirm-button:hover {
+  background-color: #ffb84d;
+}
